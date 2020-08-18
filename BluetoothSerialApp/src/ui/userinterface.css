@@ -1,0 +1,53 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+.paneFxmlClass{
+    -fx-background-image: url("wood_texture.jpg");
+    -fx-background-size: 100% 100%; 
+}
+
+.labelPaneFxmlClass{
+    -fx-background-color: rgb(16,52,166);
+    -fx-border-width : 1 1 1 1;
+    -fx-border-color: rgba(16,52,166,0.5);
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,1), 12, 0, 5, 5);
+}
+
+.lblCharge{
+    -fx-background-image: url(Battery.png);
+    -fx-background-size: 50px 50px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 0%;
+}
+
+.lblTemperature{
+    -fx-background-image: url(thermometer_icon.png);
+    -fx-background-size: 50px 50px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 5%;
+}
+
+.button{
+    -fx-background-color: rgb(16,52,166);
+    -fx-border-width : 1 1 1 1;
+    -fx-border-color: rgba(16,52,166,0.5);
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,1), 12, 0, 5, 5);
+}
+
+.button:hover {
+    -fx-border-width : 0 0 0 0;
+}
+
+.button:pressed {  
+    -fx-border-width : 0 0 0 0;
+    -fx-background-color: rgb(8, 37, 103);
+}
