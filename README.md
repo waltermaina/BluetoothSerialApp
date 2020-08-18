@@ -18,9 +18,4 @@ A Netbeans 8 JavaFX FXML application that communicates with a Wemos Lolin32 Blue
 8. Observe the section of the user interface that has a battery icon to see if the voltage, current, charge and temperature values change every 30 seconds.
 
 # An image of the user interface
-<img
-src=“https://github.com/waltermaina/BluetoothSerialApp/blob/master/images/AppUI.png”
-raw=true
-alt=“Application's User Interface”
-style=“margin-right: 10px;”
-/>
+![Application's User Interface](/images/AppUI.png)
